@@ -21,7 +21,7 @@ def main():
             nuovo_nome = input("Inserisci il nuovo nome del centro fieristico: ")
             if nuovo_nome:
                 lingotto.nome = nuovo_nome
-                print(f"Nome aggiornato con successo con {lingotto.nome}")
+                print(f"Nome aggiornato con successo {lingotto.nome}")
             else:
                 print("inserire un nome valido")
 

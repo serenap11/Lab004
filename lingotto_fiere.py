@@ -29,7 +29,7 @@ class Espositore:
         if self._stand is None:
             return f"{self.codice} : {self.nome} {self.cognome}"
         else:
-            return f"{self.codice} : {self.nome} {self.cognome}, stand associato {self._stand}"
+            return f"{self.codice} : {self.nome} {self.cognome} stand associato {self._stand}"
 
 
 class Prese(Stand):
